@@ -1,0 +1,6 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  min-width: 100vw;
+  min-height: 100vh;
+}

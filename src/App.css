@@ -1,0 +1,130 @@
+/*Login CSS*/
+
+#Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./assets/fundopet.jpg') no-repeat center/cover;
+  min-height: 140vh;
+}
+
+.loginH1 {
+  font-size: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  margin: 1.875rem;
+}
+
+label {
+  margin-top: 1.875rem;
+  font-size: 1.5625rem;
+  align-self: flex-start;
+}
+
+input {
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  padding: 0.25rem;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+}
+
+button {
+  width: 6.25rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  padding: 5px;
+  background-color: transparent;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #000;
+  margin-top: 1.25rem;
+}
+
+button:hover {
+  background-color: rgb(186, 186, 186);
+}
+
+/* Tela Inicial CSS  */
+
+#TelaInicial {
+  background-color: #d5c1ad;
+}
+
+.inicialH1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.inicial-img {
+  width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: #964b00 4px solid;
+}
+
+.container-adocao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.especificacoes {
+  display: flex;
+  flex-direction: column;
+  background-color: #d1a374;
+  gap: 20px;
+  margin-top: 25px;
+  border: #d38600 solid;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.menu-botões {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer CSS */
+
+footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #964b00;
+  color: white;
+}
+
+h4 {
+  font-size: 18px;
+}
